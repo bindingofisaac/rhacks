@@ -1,4 +1,4 @@
 #!/bin/sh
 
-python usdinr.py > usdinr.R
+python usdinr.py $1 > usdinr.R
 Rscript usdinr.R
